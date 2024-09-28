@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HueBlitz</title>
+    <link rel="icon" href="https://tueely.com/images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=l8JZRIscjALG4G-gBvqn17GqWdUmhDH8cW3TY4O5fUEKJgQIFvN9KVfi_3LKHCg1PZoT4zi1NahTYKI2QHMqCJDMuPuxH_I5uOXeLFUrOw4rgQJoTSSsdCsFZOHMKbOfTs9t7DOa4YSuvHoYhp1rsN7JfkPMJgJAOPkEoyp4Zm3-4EhB3B05mveSIJBBlFfCoR9_qgvv1MS5WyHV0Y5C1g" charset="UTF-8"></script></head>
+<body>
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h1>HueBlitz</h1>
+            <p>Click/Tap on Hues</p><br>
+            <button id="startBtn" class="button">Start Game</button>
+            <p id="finalScore" style="display:none;"></p>
+        </div>
+    </div>
+    
+    <div class="game-container">
+        <div class="header">
+            <div class="lives">
+                <span id="life1" class="heart">❤️</span>
+                <span id="life2" class="heart">❤️</span>
+                <span id="life3" class="heart">❤️</span>
+            </div>
+            <div class="score">
+                Score: <span id="score">0</span>
+            </div>
+        </div>
+        <div class="grid-container" id="grid">
+            <!-- Grid cells will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
